@@ -1,0 +1,57 @@
+{
+  "rooms" : [
+    {
+      "name" : "home" ,
+      "neigbours": ["church","garden","harbor"]
+    },
+    {
+      "name" : "church" ,
+      "neigbours": ["home"]
+    },
+    {
+      "name" : "garden" ,
+      "neigbours": ["home","rainbow bridge"]
+    },
+    {
+      "name" : "rainbow bridge" ,
+      "neigbours": ["garden","mount Olymp"]
+    },
+    {
+      "name" : "mount Olymp" ,
+      "neigbours": ["entrance to palace"]
+    },
+    {
+      "name" : "entrance to palace " ,
+      "neigbours": ["palace"]
+    },
+    {
+      "name" : "palace" ,
+      "neigbours": ["Medusa's room","Dias room"]
+    },
+    {
+      "name" : "Medusa's room" ,
+      "neigbours": ["palace"]
+    },
+    {
+      "name" : "Dias room" ,
+      "neigbours": ["garden","palace"]
+    },
+    {
+      "name" : "harbor" ,
+      "neigbours": ["home","volcano"]
+    },
+    {
+      "name" : "volcano" ,
+      "neigbours": ["hell"]
+    },
+    {
+      "name" : "hell " ,
+      "neigbours": ["river Styx"]
+    },
+    {
+      "name" : "river Styx" ,
+      "neigbours": ["home"]
+    }
+
+  ]
+}
