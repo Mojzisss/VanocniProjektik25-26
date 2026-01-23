@@ -1,4 +1,4 @@
-package think_of_better_name;
+package game;
 
 import java.util.ArrayList;
 
