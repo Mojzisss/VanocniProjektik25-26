@@ -7,22 +7,16 @@ public class Room {
     private String id;
     private String name;
     private String description;
-    private ArrayList<String> neighbors;
+    private ArrayList<String> neighbours;
     private ArrayList<String> lootTable;
 
 
 
-    public String getId(
+    public String getId()
+        {return id;}
 
-    ) {
-        return id;
-    }
-
-    public String getName(
-
-    ) {
-        return name;
-    }
+    public String getName()
+        {return name;}
 
     @Override
     public String toString() {
@@ -30,7 +24,7 @@ public class Room {
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", neighbors=" + neighbors +
+                ", neighbors=" + neighbours +
                 ", lootTable=" + lootTable +
                 '}';
     }
