@@ -18,6 +18,7 @@ import java.util.ArrayList;
         public ArrayList<Character> characters;
         public ArrayList<Room> locations;
         public ArrayList<Quest> quests;
+        game.GameData data = game.GameData.loadGameDataFromResources("/map.json");
 
         /**
          * Loads game data from a JSON file.

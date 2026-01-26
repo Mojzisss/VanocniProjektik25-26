@@ -1,12 +1,12 @@
-import game.*;
+package game;
 
 
 public class Main {
     public static void main(String[] args) {
-//        ObjectMapper parser = new ObjectMapper();
-//        game.GameData data = game.GameData.loadGameDataFromResources("/gamedata.json");
-//
-//
+
+
+
+
 //        System.out.println("Items: " + data.items.size());
 //        System.out.println("Characters: " + data.characters.size());
 //        System.out.println("Locations: " + data.locations.size());

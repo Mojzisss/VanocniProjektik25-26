@@ -6,6 +6,7 @@ public class Game {
     private GameData world;
     private Player player;
     private HashMap<String, Command> commands;
+
     public void inicialization(){
         commands = new HashMap<>();
         world = GameData.loadGameDataFromResources("/gamedata.json");
