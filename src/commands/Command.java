@@ -1,8 +1,14 @@
 package commands;
 
-import game.Player;
+public abstract class Command {
 
-public interface Command {
-    String execute(String command);
-    boolean exit();
+    protected String command;
+
+    public void setCommand(String prikaz) {
+        this.command = prikaz;
+    }
+
+    public abstract String execute(String command);
+
+    public abstract boolean exit();
 }

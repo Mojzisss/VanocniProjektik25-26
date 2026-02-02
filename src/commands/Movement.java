@@ -2,12 +2,17 @@ package commands;
 
 import game.Player;
 
-public class Movement implements Command{
+public class Movement extends Command {
 
     private Player p;
 
     public Movement(Player p) {
         this.p = p;
+    }
+
+    @Override
+    public void setCommand(String prikaz) {
+
     }
 
     @Override
