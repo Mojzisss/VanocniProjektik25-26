@@ -10,7 +10,13 @@ public class Room {
     private ArrayList<String> neighbours;
     private ArrayList<String> lootTable;
 
-
+    public Room(String id, String name, String description, ArrayList<String> neighbours, ArrayList<String> lootTable) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.neighbours = neighbours;
+        this.lootTable = lootTable;
+    }
 
     public String getId()
         {return id;}
