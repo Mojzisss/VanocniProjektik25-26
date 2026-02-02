@@ -16,9 +16,9 @@ import java.util.ArrayList;
 
         public ArrayList<Item> items;
         public ArrayList<Character> characters;
-        public ArrayList<Room> locations;
+        public ArrayList<Room> rooms;
         public ArrayList<Quest> quests;
-        game.GameData data = game.GameData.loadGameDataFromResources("/map.json");
+       // game.GameData data = game.GameData.loadGameDataFromResources("/map.json");
 
         /**
          * Loads game data from a JSON file.
@@ -56,7 +56,7 @@ import java.util.ArrayList;
          * @return the matching location
          */
         public  Room findLocation(String id) {
-            for (Room l : locations) {
+            for (Room l : rooms) {
                 if (l.getId().equals(id)){
                     return l;
                 }
