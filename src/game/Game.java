@@ -23,6 +23,8 @@ public class Game {
 
     public void start(){
         inicialization();
+        System.out.println("nooo my husband just died ,god why? tell me whyy!");
+        System.out.println("hmmm gods , gods taken him ,so gods can give him back ??");
         //zde bude herni smycka
     }
 }

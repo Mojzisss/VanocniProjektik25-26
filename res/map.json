@@ -4,25 +4,25 @@
       "name" : "spawn house",
       "id" : "home" ,
       "neighbours": ["church","garden","harbor"],
-      "lootTable": []
+      "lootTable": ["Dead body"]
     },
     {
       "name" : "Church of last hope",
       "id" : "church" ,
       "neighbours": ["home"],
-      "lootTable": []
+      "lootTable": ["Soul"]
     },
     {
       "name" : "House garden",
       "id" : "garden" ,
       "neighbours": ["home","rainbow bridge"],
-      "lootTable": []
+      "lootTable": ["Sprinkler"]
     },
     {
       "name" : "rainbow bridge",
       "id" : "bridge" ,
       "neighbours": ["garden","mount Olymp"],
-      "lootTable": []
+      "lootTable": ["Piece of rainbow"]
     },
     {
       
@@ -41,20 +41,20 @@
       "name" : "Gods Palace",
       "id" : "palace" ,
       "neighbours": ["Medusa's room","Dias room"],
-      "lootTable": []
+      "lootTable": ["A Doooor"]
 
     },
     {
       "name" : "Medusa's room",
       "id" : "Medusa's room" ,
       "neighbours": ["palace"],
-      "lootTable": []
+      "lootTable": ["Snake"]
     },
     {
       "name" : "Dias room",
       "id" : "Dias room" ,
       "neighbours": ["garden","palace"],
-      "lootTable": []
+      "lootTable": ["Hades letter","Hermes letter"]
           },
     {
       "name" : "Harbor ",
@@ -78,8 +78,46 @@
       "name" : "river Styx",
       "id" : "river" ,
       "neighbours": ["home"],
-      "lootTable": []
+      "lootTable": ["Caspian"]
     }
 
+  ],
+  "items" : [
+    {
+      "name" : "Dead body",
+      "position" : "spawn house"
+    },
+    {
+      "name" :"Soul" ,
+      "position" :"Church of last hope"
+    },
+    {
+      "name" : "Sprinkler",
+      "position" :"House garden"
+    },
+    {
+      "name" : "Piece of rainbow",
+      "position" : "rainbow bridge"
+    },
+    {
+      "name" : "A Doooor",
+      "position" :"Gods Palace"
+    },
+    {
+      "name" :"Snake" ,
+      "position" :"Medusa's room"
+    },
+    {
+      "name" : "Hades letter",
+      "position" :"Dias room"
+    },
+    {
+      "name" : "Hermes letter",
+      "position" :"Dias room"
+    },
+    {
+      "name" : "Caspian",
+      "position" :"river Styx"
+    }
   ]
 }

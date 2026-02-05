@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jackson-demo.iml" filepath="$PROJECT_DIR$/jackson-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/res/res.iml" filepath="$PROJECT_DIR$/res/res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VanocniProjektik25-26.iml" filepath="$PROJECT_DIR$/VanocniProjektik25-26.iml" />
     </modules>
   </component>
 </project>

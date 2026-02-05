@@ -9,7 +9,7 @@ public class Main {
 
 //        System.out.println("Items: " + data.items.size());
 //        System.out.println("Characters: " + data.characters.size());
-        System.out.println("Locations: " + data.rooms.size());
+        System.out.println("Locations: " + data.rooms);
 //        System.out.println("Quests: " + data.quests.size());
 
         Game game = new Game();

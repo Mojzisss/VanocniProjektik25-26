@@ -7,9 +7,7 @@ public class Dialog extends Command {
     }
 
     @Override
-    public String execute(String command) {
-        return "";
-    }
+    public String execute(String command) {return "";}
 
     @Override
     public boolean exit() {

@@ -1,6 +1,7 @@
 package game;
 
 public class Player {
+
     private Room location;
 
 
