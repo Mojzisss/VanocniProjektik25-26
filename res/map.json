@@ -85,7 +85,11 @@
 
   "items" : [
     {
-      "name" : "Dead body",
+      "name" : "Corpse",
+      "position" : "spawn house"
+    },
+    {
+      "name" : "Sunglasses",
       "position" : "spawn house"
     },
     {
@@ -124,6 +128,10 @@
 
   "characters" : [
     {
+      "name" :"Pope" ,
+      "position" : "Church of last hope"
+    },
+    {
       "name" :"Medusa" ,
       "position" : "Medusa's room"
     },
@@ -136,20 +144,48 @@
       "position" : "Harbour"
     },
     {
-      "name" :"Hades" ,
-      "position" : "Hell office"
+      "name" :"Pythagoras" ,
+      "position" : "Harbour"
     },
     {
-      "name" :"Pope" ,
-      "position" : "Church of last hope"
+      "name" :"Theresia" ,
+      "position" : "Harbour"
+    },
+    {
+      "name" :"Hades" ,
+      "position" : "Hell office"
     },
     {
       "name" :"Rainbow fairy" ,
       "position" : "rainbow bridge"
     }
   ],
+
   "quests" : [
-
+    {
+      "name" :"soul of the sea" ,
+      "position" : "Church of last hope",
+      "description" : "bring Corpse to the church and give it to pope to reincarnate it into the magical soul"
+    },
+    {
+      "name" :"birth of rainbow" ,
+      "position" : "House garden",
+      "description" : "use sprinkler to summon rainbow fairy"
+    },
+    {
+      "name" :"what a big palace ! " ,
+      "position" : "Gods Palace",
+      "description" : "there is exactly 16 rooms ,good luck finding the right one before the bad one finds u "
+    },
+    {
+      "name" :"tell me ,whooo aree youuu" ,
+      "position" : "harbour",
+      "description" : "choose the correct person to take you to the hell"
+    },
+    {
+      "name" :"dead of dead soul " ,
+      "position" : "river Styx",
+      "description" : "take Caspian home , somehow , its your problem"
+    }
   ]
-
 }
