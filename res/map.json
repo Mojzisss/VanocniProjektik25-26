@@ -57,7 +57,7 @@
       "lootTable": ["Hades letter","Hermes letter"]
           },
     {
-      "name" : "Harbor ",
+      "name" : "Harbour ",
       "id" : "harbor" ,
       "neighbours": ["home","volcano"],
       "lootTable": []
@@ -82,6 +82,7 @@
     }
 
   ],
+
   "items" : [
     {
       "name" : "Dead body",
@@ -119,5 +120,36 @@
       "name" : "Caspian",
       "position" :"river Styx"
     }
+  ],
+
+  "characters" : [
+    {
+      "name" :"Medusa" ,
+      "position" : "Medusa's room"
+    },
+    {
+      "name" :"Zeus" ,
+      "position" : "Dias room"
+    },
+    {
+      "name" :"Hermes" ,
+      "position" : "Harbour"
+    },
+    {
+      "name" :"Hades" ,
+      "position" : "Hell office"
+    },
+    {
+      "name" :"Pope" ,
+      "position" : "Church of last hope"
+    },
+    {
+      "name" :"Rainbow fairy" ,
+      "position" : "rainbow bridge"
+    }
+  ],
+  "quests" : [
+
   ]
+
 }
