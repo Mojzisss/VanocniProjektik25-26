@@ -5,4 +5,14 @@ public class Item {
     private String name;
     private String type;
     private String description;
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }

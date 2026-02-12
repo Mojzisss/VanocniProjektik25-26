@@ -4,16 +4,14 @@ import java.util.ArrayList;
 
 public class Room {
 
-    private String id;
     private String name;
-    private String description;
+    private String id;
     private ArrayList<String> neighbours;
     private ArrayList<String> lootTable;
 
-    public Room(String id, String name, String description, ArrayList<String> neighbours, ArrayList<String> lootTable) {
-        this.id = id;
+    public Room(String name,String id, ArrayList<String> neighbours, ArrayList<String> lootTable) {
         this.name = name;
-        this.description = description;
+        this.id = id;
         this.neighbours = neighbours;
         this.lootTable = lootTable;
     }
@@ -27,9 +25,8 @@ public class Room {
     @Override
     public String toString() {
         return "Location{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
                 ", neighbors=" + neighbours +
                 ", lootTable=" + lootTable +
                 '}';

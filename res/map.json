@@ -2,81 +2,81 @@
   "rooms" : [
     {
       "name" : "spawn house",
-      "id" : "home" ,
+      "id" : "id_home" ,
       "neighbours": ["church","garden","harbor"],
       "lootTable": ["Dead body"]
     },
     {
       "name" : "Church of last hope",
-      "id" : "church" ,
+      "id" : "id_church" ,
       "neighbours": ["home"],
       "lootTable": ["Soul"]
     },
     {
       "name" : "House garden",
-      "id" : "garden" ,
+      "id" : "id_garden" ,
       "neighbours": ["home","rainbow bridge"],
       "lootTable": ["Sprinkler"]
     },
     {
       "name" : "rainbow bridge",
-      "id" : "bridge" ,
+      "id" : "id_bridge" ,
       "neighbours": ["garden","mount Olymp"],
       "lootTable": ["Piece of rainbow"]
     },
     {
       
       "name" : "Mount Olymp", 
-      "id": "Olymp" ,
+      "id": "id_Olymp" ,
       "neighbours": ["entrance to palace"],
       "lootTable": []
     },
     {
       "name" : "Entrance to palace ", 
-      "id" : "entrance" ,
+      "id" : "id_entrance" ,
       "neighbours": ["palace"],
       "lootTable": []
     },
     {
       "name" : "Gods Palace",
-      "id" : "palace" ,
+      "id" : "id_palace" ,
       "neighbours": ["Medusa's room","Dias room"],
       "lootTable": ["A Doooor"]
 
     },
     {
       "name" : "Medusa's room",
-      "id" : "Medusa's room" ,
+      "id" : "id_Medusa's room" ,
       "neighbours": ["palace"],
       "lootTable": ["Snake"]
     },
     {
       "name" : "Dias room",
-      "id" : "Dias room" ,
+      "id" : "id_Dias room" ,
       "neighbours": ["garden","palace"],
       "lootTable": ["Hades letter","Hermes letter"]
           },
     {
       "name" : "Harbour ",
-      "id" : "harbor" ,
+      "id" : "id_harbor" ,
       "neighbours": ["home","volcano"],
       "lootTable": []
     },
     {
       "name" : "Volcano",
-      "id" : "volcano" ,
+      "id" : "id_volcano" ,
       "neighbours": ["hell"],
       "lootTable": []
     },
     {
       "name" : "Hell office",
-      "id" : "hell " ,
+      "id" : "id_hell " ,
       "neighbours": ["river Styx"],
       "lootTable": []
     },
     {
       "name" : "river Styx",
-      "id" : "river" ,
+      "id" : "id_river" ,
       "neighbours": ["home"],
       "lootTable": ["Caspian"]
     }
@@ -85,43 +85,69 @@
 
   "items" : [
     {
+      "id" : "Corpse" ,
       "name" : "Corpse",
+      "type" : "Usable",
       "position" : "spawn house"
     },
     {
+      "id" : "id_Sunglasses" ,
       "name" : "Sunglasses",
+      "type" : "Equipable",
       "position" : "spawn house"
     },
     {
+      "id" : "id_Soul" ,
       "name" :"Soul" ,
+      "type" : "Equipable",
       "position" :"Church of last hope"
     },
     {
+      "id" : "id_Sprinkle" ,
       "name" : "Sprinkler",
+      "type" : "Usable",
       "position" :"House garden"
     },
     {
+      "id" : "id_Golden apple" ,
+      "name" : "Golden apple",
+      "type" : "Consumable",
+      "position" :"House garden"
+    },
+    {
+      "id" : "id_Piece of rainbow" ,
       "name" : "Piece of rainbow",
+      "type" : "Currency",
       "position" : "rainbow bridge"
     },
     {
+      "id" : "id_A Doooor" ,
       "name" : "A Doooor",
+      "type" : "Currency",
       "position" :"Gods Palace"
     },
     {
+      "id" : "id_Snake" ,
       "name" :"Snake" ,
+      "type" : "Usable",
       "position" :"Medusa's room"
     },
     {
+      "id" : "id_Hades letter" ,
       "name" : "Hades letter",
+      "type" : "Usable",
       "position" :"Dias room"
     },
     {
+      "id" : "id_Hermes letter" ,
       "name" : "Hermes letter",
+      "type" : "Usable",
       "position" :"Dias room"
     },
     {
+      "id" : "id_Caspian" ,
       "name" : "Caspian",
+      "type" : "Currency",
       "position" :"river Styx"
     }
   ],

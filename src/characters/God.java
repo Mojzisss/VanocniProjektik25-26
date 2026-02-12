@@ -1,4 +1,4 @@
 package characters;
 
-public class Gods {
+public class God {
 }
