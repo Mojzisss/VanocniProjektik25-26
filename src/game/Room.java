@@ -22,6 +22,14 @@ public class Room {
     public String getName()
         {return name;}
 
+    public ArrayList<String> getNeighbours() {
+        return neighbours;
+    }
+
+    public ArrayList<String> getLootTable() {
+        return lootTable;
+    }
+
     @Override
     public String toString() {
         return "Location{" +

@@ -7,10 +7,10 @@ public class Main {
 
 
 
-        System.out.println("Items: " + data.items.toString());
+        System.out.println("Items: " + data.items);
         System.out.println("Characters: " + data.characters);
         System.out.println("Locations: " + data.rooms);
-        System.out.println("Quests: " + data.quests.toString());
+        System.out.println("Quests: " + data.quests);
 
         Game game = new Game();
         game.start();

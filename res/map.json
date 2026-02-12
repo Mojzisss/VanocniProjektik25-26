@@ -85,68 +85,68 @@
 
   "items" : [
     {
-      "id" : "Corpse" ,
       "name" : "Corpse",
+      "id" : "id_Corpse" ,
       "type" : "Usable",
       "position" : "spawn house"
     },
     {
-      "id" : "id_Sunglasses" ,
       "name" : "Sunglasses",
+      "id" : "id_Sunglasses" ,
       "type" : "Equipable",
       "position" : "spawn house"
     },
     {
-      "id" : "id_Soul" ,
       "name" :"Soul" ,
+      "id" : "id_Soul" ,
       "type" : "Equipable",
       "position" :"Church of last hope"
     },
     {
-      "id" : "id_Sprinkle" ,
       "name" : "Sprinkler",
+      "id" : "id_Sprinkle" ,
       "type" : "Usable",
       "position" :"House garden"
     },
     {
-      "id" : "id_Golden apple" ,
       "name" : "Golden apple",
+      "id" : "id_Golden apple" ,
       "type" : "Consumable",
       "position" :"House garden"
     },
     {
-      "id" : "id_Piece of rainbow" ,
       "name" : "Piece of rainbow",
+      "id" : "id_Piece of rainbow" ,
       "type" : "Currency",
       "position" : "rainbow bridge"
     },
     {
-      "id" : "id_A Doooor" ,
       "name" : "A Doooor",
+      "id" : "id_A Doooor" ,
       "type" : "Currency",
       "position" :"Gods Palace"
     },
     {
-      "id" : "id_Snake" ,
       "name" :"Snake" ,
+      "id" : "id_Snake" ,
       "type" : "Usable",
       "position" :"Medusa's room"
     },
     {
-      "id" : "id_Hades letter" ,
       "name" : "Hades letter",
+      "id" : "id_Hades letter" ,
       "type" : "Usable",
       "position" :"Dias room"
     },
     {
-      "id" : "id_Hermes letter" ,
       "name" : "Hermes letter",
+      "id" : "id_Hermes letter" ,
       "type" : "Usable",
       "position" :"Dias room"
     },
     {
-      "id" : "id_Caspian" ,
       "name" : "Caspian",
+      "id" : "id_Caspian" ,
       "type" : "Currency",
       "position" :"river Styx"
     }
@@ -154,35 +154,57 @@
 
   "characters" : [
     {
+      "name" :"Theresia" ,
+      "id" : "id_Theresia",
+      "role" : "Player",
+      "position" : ""
+    },
+    {
       "name" :"Pope" ,
+      "id" : "id_Pope",
+      "role" : "Traveler",
       "position" : "Church of last hope"
     },
     {
       "name" :"Medusa" ,
+      "id" : "id_Medusa",
+      "role" : "God",
       "position" : "Medusa's room"
     },
     {
       "name" :"Zeus" ,
+      "id" : "id_Zeus",
+      "role" : "God",
       "position" : "Dias room"
     },
     {
       "name" :"Hermes" ,
+      "id" : "id_Hermes",
+      "role" : "Traveler",
       "position" : "Harbour"
     },
     {
       "name" :"Pythagoras" ,
+      "id" : "id_Pythagoras",
+      "role" : "Traveler",
       "position" : "Harbour"
     },
     {
-      "name" :"Theresia" ,
+      "name" :"Theresian" ,
+      "id" : "id_Theresia",
+      "role" : "Traveler",
       "position" : "Harbour"
     },
     {
       "name" :"Hades" ,
+      "id" : "id_Hades",
+      "role" : "God",
       "position" : "Hell office"
     },
     {
       "name" :"Rainbow fairy" ,
+      "id" : "id_Rainbow fairy",
+      "role" : "God",
       "position" : "rainbow bridge"
     }
   ],
@@ -190,28 +212,38 @@
   "quests" : [
     {
       "name" :"soul of the sea" ,
+      "id" : "id_soul of the sea",
       "position" : "Church of last hope",
-      "description" : "bring Corpse to the church and give it to pope to reincarnate it into the magical soul"
+      "description" : "bring Corpse to the church and give it to pope to reincarnate it into the magical soul",
+      "status" : "in progress"
     },
     {
       "name" :"birth of rainbow" ,
+      "id" : "id_birth of rainbow",
       "position" : "House garden",
-      "description" : "use sprinkler to summon rainbow fairy"
+      "description" : "use sprinkler to summon rainbow fairy",
+      "status" : "later"
     },
     {
       "name" :"what a big palace ! " ,
+      "id" : "id_what a big palace ! ",
       "position" : "Gods Palace",
-      "description" : "there is exactly 16 rooms ,good luck finding the right one before the bad one finds u "
+      "description" : "there is exactly 16 rooms ,good luck finding the right one before the bad one finds u ",
+      "status" : "later"
     },
     {
       "name" :"tell me ,whooo aree youuu" ,
+      "id" : "id_tell me ,whooo aree youuu",
       "position" : "harbour",
-      "description" : "choose the correct person to take you to the hell"
+      "description" : "choose the correct person to take you to the hell",
+      "status" : "later"
     },
     {
       "name" :"dead of dead soul " ,
+      "id" : "id_dead of dead soul",
       "position" : "river Styx",
-      "description" : "take Caspian home , somehow , its your problem"
+      "description" : "take Caspian home , somehow , its your problem",
+      "status" : "later"
     }
   ]
 }
