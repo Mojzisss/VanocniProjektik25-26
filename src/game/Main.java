@@ -7,13 +7,13 @@ public class Main {
 
 
 
-        System.out.println("Items: " + data.items);
-        System.out.println("Characters: " + data.characters);
-        System.out.println("Locations: " + data.rooms);
-        System.out.println("Quests: " + data.quests);
+//        System.out.println("Items: " + Game.world.items);
+////        System.out.println("Characters: "+ Game.world.characters);
+////        System.out.println("Locations: " + Game.world.rooms);
+////        System.out.println("Quests: " + Game.world.quests);
 
         Game game = new Game();
         game.start();
 
-   }
+    }
 }
