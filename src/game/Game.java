@@ -15,12 +15,12 @@ public class Game {
     public void inicialization(){
         commands = new HashMap<>();
 
-        commands.put("movement", new Movement(player));
-        commands.put("dialog", new Dialog());
-        commands.put("fight", new Fight());
-        commands.put("pickup", new Pickup());
-        commands.put("quests", new Quests());
-        commands.put("usage", new Usage());
+        commands.put("Movement", new Movement(player));
+        commands.put("Dialog", new Dialog());
+        commands.put("Fight", new Fight());
+        commands.put("Pickup", new Pickup());
+        commands.put("Quests", new Quests());
+        commands.put("Usage", new Usage());
         commands.put("Help", new Help());
         commands.put("Exit", new Exit());
 
