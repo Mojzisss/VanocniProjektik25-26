@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="807bb9cb-70ea-4299-b476-dcefc343312c" name="Changes" comment="tests added , map expansion , overall better orientation">
-      <change afterPath="$PROJECT_DIR$/src/commands/Exit.java" afterDir="false" />
+    <list default="true" id="34005383-f70d-4ea1-ad5b-3ac06a2d8671" name="Changes" comment="characters .json improve">
+      <change afterPath="$PROJECT_DIR$/res/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VanocniProjektik25-26.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VanocniProjektik25-26.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/console/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/console/Console.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +19,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -38,14 +35,17 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Mojzisss/VanocniProjektik25-26.git&quot;,
-    &quot;accountId&quot;: &quot;f5b40e4f-e3c6-4da3-80e9-fc845a5a8f67&quot;
+    &quot;accountId&quot;: &quot;3a0a12f9-908f-42e4-a210-1ada91d921e7&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="39aKd1e5lDtkA0PdjboID8a5WIl" />
+  <component name="ProjectId" id="39Gdehlld55whQkBW6MIChIp0K0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,65 +54,44 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ItemTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mojmi/Downloads/JakTestovat/JakTestovat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32528734",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="game" />
-      <recent name="commands" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="807bb9cb-70ea-4299-b476-dcefc343312c" name="Changes" comment="" />
-      <created>1770928828605</created>
+      <changelist id="34005383-f70d-4ea1-ad5b-3ac06a2d8671" name="Changes" comment="" />
+      <created>1770326442478</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1770928828605</updated>
-      <workItem from="1770928830771" duration="824000" />
-      <workItem from="1770931943639" duration="3570000" />
-      <workItem from="1770935568612" duration="14000" />
-      <workItem from="1770935605536" duration="9000" />
-      <workItem from="1770935640250" duration="194000" />
-      <workItem from="1770935856417" duration="197000" />
-      <workItem from="1770936086244" duration="38000" />
-      <workItem from="1770936143975" duration="46000" />
-      <workItem from="1770936210392" duration="7000" />
-      <workItem from="1770936224895" duration="51000" />
-      <workItem from="1770936294528" duration="23000" />
-      <workItem from="1770936353404" duration="11000" />
-      <workItem from="1770936410072" duration="162000" />
-      <workItem from="1770936580810" duration="83000" />
+      <updated>1770326442478</updated>
+      <workItem from="1770326444157" duration="2611000" />
     </task>
-    <task id="LOCAL-00001" summary="tests added , map expansion , overall better orientation">
+    <task id="LOCAL-00001" summary="characters .json improve">
       <option name="closed" value="true" />
-      <created>1770933469922</created>
+      <created>1770368087644</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1770933469922</updated>
+      <updated>1770368087644</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -132,7 +111,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tests added , map expansion , overall better orientation" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests added , map expansion , overall better orientation" />
+    <MESSAGE value="characters .json improve" />
+    <option name="LAST_COMMIT_MESSAGE" value="characters .json improve" />
   </component>
 </project>
